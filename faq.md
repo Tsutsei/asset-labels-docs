@@ -17,7 +17,7 @@ No. It only reads object schemas, types, attributes and objects.
 In your browser. PDF and ZPL files are created there and downloaded by you; Assets data is never sent to or stored by the app.
 
 **How many labels at once?**
-Up to 1 000 objects per run. For more, print in batches with an AQL filter.
+1 000 objects per batch; **Load the next 1 000** continues with the following ones. Add `ORDER BY` to the filter to control the order.
 
 **Which characters are supported?**
 All European characters (for example č, ł, ø, ß, ő) – the PDF embeds the DejaVu Sans font. ZPL is sent as UTF-8; your Zebra printer needs a font with these characters.
