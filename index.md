@@ -9,9 +9,9 @@ permalink: /
 Assets itself prints one QR code with the object key. When you need to label 300 laptops with their serial number, location and "Property of …", you need more. Asset Labels:
 
 - **Finds the objects** – choose an object schema and type, narrow it down with AQL (for example `Location = "Prague"` or `Status = "In stock"`), tick or untick objects.
-- **Designs the label** – title, up to three attribute lines, a footer, and what the QR code contains (a link to the object in Jira, the key, or any attribute). A live preview shows the label as it prints.
-- **Prints it** – PDF for A4 and Letter label sheets (Avery) and for label printers, ZPL for Zebra printers. Start in the middle of a partly used sheet.
-- **Remembers the design** – save templates that everyone on the site can use.
+- **Designs the label** – your logo, a title, up to five attribute lines, a footer, and a **QR code or Code 128 barcode** with a link to the object in Jira, the key or any attribute. A live preview shows the label as it prints.
+- **Prints it** – PDF for A4 and Letter label sheets (Avery), label printers in standard or custom sizes, ZPL for Zebra printers, or CSV for your own label software. Start in the middle of a partly used sheet, print several copies per asset.
+- **Remembers the design** – save templates that everyone on the site can use; every change can be undone.
 
 Scan a label with a phone and the object opens in Jira.
 

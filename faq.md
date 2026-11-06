@@ -26,7 +26,13 @@ All European characters (for example č, ł, ø, ß, ő) – the PDF embeds the 
 With "Link to the object in Jira", the object's page in Assets – the person scanning needs access to Assets on your site. You can also put the key or any attribute (for example a serial number) into the QR code.
 
 **Can I add a logo?**
-Not yet – tell us if you need it.
+Yes – a PNG or JPG up to 150 kB, saved with the template. It is printed in PDFs (not in ZPL).
+
+**QR code or barcode?**
+QR codes are read by phones and can hold a link that opens the object. Code 128 barcodes are read by handheld barcode scanners and hold up to 48 plain characters, for example the key or a serial number.
+
+**Can I use my own label software?**
+Yes – **Download CSV** gives the code content and the texts of every label, ready for BarTender, P-touch Editor and similar tools.
 
 **What happens to templates when I uninstall?**
 They are deleted with the app's data.

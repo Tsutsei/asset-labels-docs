@@ -16,20 +16,26 @@ In Jira: **Apps → Asset Labels**. Everyone with access to Assets can use it.
 3. **Find assets**. Up to 1 000 objects are loaded at a time; narrow the filter to print more in batches. All found objects are selected – untick the ones you do not need.
 
 ## 2. Design the label
-- **Label size** – a sheet (A4 or Letter) or a label printer size. See [label sizes]({{ '/sizes/' | relative_url }}).
+- **Label size** – a sheet (A4 or Letter), a label printer size, or **Label printer – custom size** with your own width and height (15–150 mm). See [label sizes]({{ '/sizes/' | relative_url }}).
 - **Title** – the object name, the key or any attribute, printed in bold.
-- **Line 1–3** – attributes printed below the title. With **Show attribute names** a line reads "Serial number: SN123"; when it does not fit, the font gets smaller, then the name is left out so the value stays readable.
-- **QR code contains** – a **link to the object in Jira** (scan it to open the object), the key, an attribute, or nothing.
+- **Line 1–5** – attributes printed below the title (as many as fit on the label size). With **Show attribute names** a line reads "Serial number: SN123"; when it does not fit, the font gets smaller, then the name is left out so the value stays readable.
+- **Code** – a **QR code** (for phones) or a **Code 128 barcode** (for handheld barcode scanners), and what it **contains**: a **link to the object in Jira** (QR only – scan it to open the object), the key, an attribute such as the serial number, or no code. Barcodes hold up to 48 plain characters.
+- **Text size** – small, normal, large or extra large, for labels that must be read from a distance.
 - **Footer** – a short text at the bottom of every label, for example "Property of ACME · IT help: ext. 1234".
-- **Skip used labels** – on sheets, leave the first labels empty when you print on a sheet that is partly used.
+- **Logo** – a PNG or JPG (up to 150 kB), printed at the top right. Saved with the template.
 
 The **preview** shows the first selected object as it will print.
 
 ## Templates
-Give the design a **name** and **Save template**. Everyone on the site sees saved templates in the **Template** list; choosing one restores the size, fields and footer (and its object type when it is in the chosen schema). **Delete template** removes it for everyone.
+Give the design a **name** and **Save template**. Everyone on the site sees saved templates in the **Template** list; choosing one restores the size, fields, footer and logo (and its object type when it is in the chosen schema). Templates are shared, so changes are safe to undo:
+- **Undo last change** brings back the version before the last save.
+- **Delete template** removes it for everyone; **Restore deleted template** brings it back within 30 days.
 
 ## 3. Download
+- **Skip used labels** – on sheets, leave the first labels empty when you print on a sheet that is partly used.
+- **Copies per asset** – 1 to 10 labels per object (for example one for the device and one for its box).
 - **Download PDF** – print it at **100 % / actual size** (not "fit to page"), on the label stock that matches the size you chose.
-- **Download ZPL (Zebra)** – for label printer sizes; send the file to a Zebra printer (for example with Zebra Setup Utilities or `lp -o raw`).
+- **Download ZPL (Zebra)** – for label printer sizes; send the file to a Zebra printer (for example with Zebra Setup Utilities or `lp -o raw`). ZPL labels have no logo.
+- **Download CSV** – the code content and the texts of every label, for label software such as BarTender, P-touch Editor or Avery Design & Print.
 
 Tip: print one sheet on plain paper first and hold it against the label sheet to check the alignment.

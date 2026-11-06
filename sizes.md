@@ -26,7 +26,9 @@ One label per PDF page, or ZPL for Zebra printers.
 | 62 × 29 mm | 300 dpi |
 | 4 × 2 in (101.6 × 50.8 mm) | 203 dpi |
 
-Need another size? [Tell us]({{ '/support/' | relative_url }}) – sizes are easy to add.
+**Custom size:** choose *Label printer – custom size* and type the width and height (15–150 mm).
+
+Need another sheet? [Tell us]({{ '/support/' | relative_url }}) – sizes are easy to add.
 
 ## Printing tips
 - Print PDFs at **100 % / actual size**; "fit to page" shifts every label.
