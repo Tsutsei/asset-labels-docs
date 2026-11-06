@@ -1,0 +1,9 @@
+title: Asset Labels for Jira
+description: Bulk QR labels for Jira Service Management Assets – user guide, label sizes, FAQ, privacy, terms and support.
+theme: minima
+header_pages:
+  - index.md
+  - guide.md
+  - sizes.md
+  - faq.md
+  - support.md
